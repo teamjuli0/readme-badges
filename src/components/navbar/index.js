@@ -1,4 +1,4 @@
-import { LogoRound } from './images'
+import { LogoRound, LogoSquare } from './images'
 import './style.css'
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
             <input />
           </div>
           <div className='nav-title-div'>
-            <p>Readme Badges</p>
+            <img alt='Readme Badtges Logo Square' src={LogoSquare} />
           </div>
         </div>
       </nav>

@@ -1,5 +1,5 @@
 html {
-  min-width: 250px;
+  min-width: 260px;
 }
 
 textarea:focus,
@@ -37,7 +37,7 @@ nav > div {
   height: 100%;
   order: 2;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -67,13 +67,9 @@ nav > div {
   align-items: center;
 }
 
-.nav-title-div > p {
-  padding: 0;
-  margin: 0;
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: bold;
-  color: #404040;
+.nav-title-div > img {
+  height: 35px;
+  margin: 0 15px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -87,6 +83,11 @@ nav > div {
 
   nav > div {
     height: 55px;
+  }
+  .nav-icon-div {
+    position: fixed;
+    top: 5px;
+    left: 13px;
   }
 
   .nav-input-div {
@@ -102,6 +103,10 @@ nav > div {
   }
 
   .nav-title-div {
+    flex: 1 1 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     order: 2;
   }
 }
