@@ -48,7 +48,7 @@ Although there is no installation needed, you can feel free to clone the repo an
 ## <img id="built_using" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px">
 
 - Javascript
-- jQuery
+- React
 - Bootstrap
 
 ## <img id="authors" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/authors.png?raw=true" style="height: 40px">
