@@ -1,22 +1,14 @@
-import { useState } from 'react'
-import ReadmeBadges from '../themes/'
-
-const { 'menu-categories': Categories, technologies: Technologies } =
-  ReadmeBadges.choices
+import { bindActionCreators } from 'redux'
+import { useSelector, useDispatch } from 'react-redux'
+import { actionCreators } from '../state'
 
 const Home = () => {
-  const [currentImg, setCurrentImg] = useState({
-    name: 'javascript',
-    category: 'technologies',
-  })
+  const stateChoices = useSelector((state) => state.choices)
+  const { currentChoice, filteredChoices } = stateChoices
 
-  const [choices, setChoices] = useState([
-    ...Categories.map((item) => ({ name: item, category: 'menu-categories' })),
-    ...Technologies.map((item) => ({
-      name: item,
-      category: 'technologies',
-    })),
-  ])
+  const dispatch = useDispatch()
+
+  const { updateCurrentChoice } = bindActionCreators(actionCreators, dispatch)
 
   return (
     <>
@@ -39,7 +31,7 @@ const Home = () => {
               maxWidth: '550px',
             }}
             alt=''
-            src={`https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/${currentImg.category}/${currentImg.name}.png?raw=true`}
+            src={`https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/${currentChoice.category}/${currentChoice.name}.png?raw=true`}
           />
         </div>
       </div>
@@ -53,10 +45,10 @@ const Home = () => {
           padding: '10px',
         }}
       >
-        {choices.map((item) => (
+        {filteredChoices.map((item) => (
           <img
             onClick={() =>
-              setCurrentImg({ name: item.name, category: item.category })
+              updateCurrentChoice({ name: item.name, category: item.category })
             }
             alt=''
             style={{ height: '45px', padding: '6px' }}
