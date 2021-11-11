@@ -20,7 +20,7 @@
     <br> 
 </p>
 
-## <a href="#table-of-context" style="cursor: default"><img src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/table-of-context.png?raw=true" style="height: 40px"></a>
+## <a href="#table-of-context"><img src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/table-of-context.png?raw=true" style="height: 40px"></a>
 
 - [About](#about)
 - [Installing](#installing)
