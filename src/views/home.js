@@ -37,6 +37,34 @@ const Home = () => {
       </div>
       <div
         style={{
+          display: 'flex',
+          justifyContent: 'flex-start',
+          alignItems: 'center',
+          padding: '10px',
+        }}
+      >
+        <button
+          style={{
+            backgroundColor: '#434850',
+            padding: '5px 10px',
+            margin: 0,
+            border: 0,
+            borderRadius: '10px',
+            fontWeight: 'bold',
+            color: 'white',
+          }}
+          onClick={() => {
+            navigator.clipboard.writeText(
+              `## <a href="#readme-badge"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/${currentChoice.category}/${currentChoice.name}.png?raw=true" style="height: 40px"></a>
+              `
+            )
+          }}
+        >
+          Copy Markdown
+        </button>
+      </div>
+      <div
+        style={{
           background: 'transparent',
           margin: 'auto',
           display: 'flex',
