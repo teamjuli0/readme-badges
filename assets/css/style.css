@@ -1,0 +1,19 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+#output {
+  display: flex;
+  height: 100px;
+  max-width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+#output > p {
+  background-color: #2f343d;
+  color: white;
+  padding: 5px 10px 4px 10px;
+  display: inline;
+  font-size: 14px;
+}
