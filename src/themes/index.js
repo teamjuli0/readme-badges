@@ -16,7 +16,7 @@ const ReadmeBadges = {
     technologies: [
       'assembly',
       'c',
-      'c#',
+      'c-sharp',
       'c++',
       'dart',
       'flutter',
