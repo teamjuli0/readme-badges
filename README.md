@@ -39,7 +39,7 @@ Although there is no installation needed, you can feel free to clone the repo an
 
 ## <a href="#readme-badge"target="\_blank"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 40px"></a>
 
-## <a href="https://badges.juliovaldez.dev/menu-categories/usage"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 25px"></a>
+## <a href="https://badges.juliovaldez.dev/clipboard/menu-categories/usage"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 25px"></a>
 
 </div>
 

@@ -1,10 +1,5 @@
 import './App.css'
-import { Navbar } from './components'
-import { Home } from './views'
-import { Provider } from 'react-redux'
-import { store } from './state/store'
-
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
   const getClipboardCopy = () => {
@@ -24,7 +19,7 @@ function App() {
       <Routes>
         <Route
           exact
-          path='/:option/:title'
+          path='/clipboard/:option/:title'
           element={<>{getClipboardCopy()}</>}
         />
       </Routes>
