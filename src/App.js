@@ -18,7 +18,6 @@ function App() {
     <>
       <Routes>
         <Route
-          exact
           path='/clipboard/:option/:title'
           element={<>{getClipboardCopy()}</>}
         />
