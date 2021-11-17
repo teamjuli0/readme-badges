@@ -12,7 +12,9 @@ function App() {
         }/${urlArr[urlArr.length - 1]}.png?raw=true" style="height: 25px"></a>`
       )
       .then(
-        () => (window.location = 'https://github.com/teamjuli0/readme-badges/')
+        () =>
+          (window.location =
+            'https://github.com/teamjuli0/readme-badges/#usage-badge')
       )
   }
 
