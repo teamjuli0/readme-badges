@@ -11,7 +11,9 @@ function App() {
           urlArr[urlArr.length - 2]
         }/${urlArr[urlArr.length - 1]}.png?raw=true" style="height: 25px"></a>`
       )
-      .then(() => window.close())
+      .then(
+        () => (window.location = 'https://github.com/teamjuli0/readme-badges/')
+      )
   }
 
   return (
