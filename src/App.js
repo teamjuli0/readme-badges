@@ -13,8 +13,9 @@ function App() {
       )
       .then(
         () =>
-          (window.location =
-            'https://github.com/teamjuli0/readme-badges/#usage-badge')
+          (window.location = `https://github.com/teamjuli0/readme-badges/#${
+            urlArr[urlArr.length - 1]
+          }-badge`)
       )
   }
 
