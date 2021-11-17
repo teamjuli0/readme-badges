@@ -29,7 +29,6 @@
 - [Authors](#authors)
 - [Example URL Out](#example-url-out)
 - [Questions](#questions)
-- [Screenshots](#screenshots)
 
 ## <a href="#readme-badge"><img id="about" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/about.png?raw=true" style="height: 40px"></a>
 
