@@ -4,27 +4,30 @@ import { Home } from './views'
 import { Provider } from 'react-redux'
 import { store } from './state/store'
 
+import { Routes, Route, Link } from 'react-router-dom'
+
 function App() {
+  const getClipboardCopy = () => {
+    const urlArr = window.location.href.split('/')
+    console.log(urlArr[urlArr.length - 2])
+    navigator.clipboard
+      .writeText(
+        `## <a href="#readme-badges"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/${
+          urlArr[urlArr.length - 2]
+        }/${urlArr[urlArr.length - 1]}.png?raw=true" style="height: 25px"></a>`
+      )
+      .then(() => window.close())
+  }
+
   return (
     <>
-      <Provider store={store}>
-        <div
-          style={{
-            width: '100%',
-            height: '48px',
-            padding: '0 0 0 10px',
-            backgroundColor: '#da4040',
-            fontFamily: 'NotoSans',
-            color: 'white',
-            fontWeight: 'bold',
-            fontSize: '30px',
-          }}
-        >
-          ALPHA BUILD
-        </div>
-        <Navbar />
-        <Home />
-      </Provider>
+      <Routes>
+        <Route
+          exact
+          path='/:option/:title'
+          element={<>{getClipboardCopy()}</>}
+        />
+      </Routes>
     </>
   )
 }

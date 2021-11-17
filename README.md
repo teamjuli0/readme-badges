@@ -27,7 +27,6 @@
 - [Usage](#usage)
 - [Built With](#built_using)
 - [Authors](#authors)
-- [Example URL Out](#example-url-out)
 - [Questions](#questions)
 
 ## <a href="#readme-badge"><img id="about" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/about.png?raw=true" style="height: 40px"></a>
@@ -40,9 +39,9 @@ Although there is no installation needed, you can feel free to clone the repo an
 
 ## <a href="#readme-badge"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 40px"></a>
 
-1. Navigate to the [`Readme Badges Homepage`](https://teamjuli0.github.io/readme-badges)
-2. Click on the button for the appropriate theme you'd like to view
-3. Click on the "Download All" button to download all images and host them locally. You can also select the appropriate button to either copy the image url or the markdown tag for the image altogether
+## <a href="https://badges.juliovaldez.dev/menu-categories/usage"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 25px"></a>
+
+</div>
 
 ## <a href="#readme-badge"><img id="built_using" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px"></a>
 
