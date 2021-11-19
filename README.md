@@ -43,7 +43,7 @@ Although there is no installation needed, you can feel free to clone the repo an
 
 ## <a href="#readme-badge" target="_blank"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 40px"></a>
 
-Badge | URL
+Click&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Image To Copy Markup
 ------------ | -------------
 <a href="https://badges.juliovaldez.dev/clipboard/menu-categories/about"><img id="about-badge" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/about.png?raw=true" style="height: 27px"></a> | `https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/about.png?raw=true`
  <a href="https://badges.juliovaldez.dev/clipboard/menu-categories/authors"><img id="authors-badge" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/authors.png?raw=true" style="height: 27px"></a> | `https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/authors.png?raw=true`
@@ -59,7 +59,7 @@ Badge | URL
 
  
 
-Badge | URL
+Click&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Image To Copy Markup
 ------------ | -------------
 <a href="https://badges.juliovaldez.dev/clipboard/technologies/assembly"><img id="assembly-badge" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/technologies/assembly.png?raw=true" style="height: 27px"></a> | `https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/technologies/assembly.png?raw=true`
 <a href="https://badges.juliovaldez.dev/clipboard/technologies/bootstrap"><img id="bootstrap-badge" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/technologies/bootstrap.png?raw=true" style="height: 27px"></a> | `https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/technologies/bootstrap.png?raw=true`
