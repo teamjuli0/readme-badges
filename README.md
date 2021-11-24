@@ -52,7 +52,7 @@ Steps to use a theme in your readme:
 
 Preview | Theme Name | &nbsp; | &nbsp;
 ------------ | ------------- | ------------- | -------------
-<a href="https://github.com/teamjuli0/readme-badges/wiki/Clean-Dark-Theme"><img src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/technologies/javascript.png?raw=true" height="22"></a> | `Clean Dark` | <a href="https://github.com/teamjuli0/readme-badges/wiki/Clean-Dark-Theme"><img src="https://github.com/teamjuli0/readme-badges/blob/main/themes/neptune/technologies/javascript.png?raw=true" height="22"></a> | `Neptune`
+<a href="https://github.com/teamjuli0/readme-badges/wiki/Clean-Dark-Theme"><img src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/technologies/javascript.png?raw=true" height="22"></a> | `Clean Dark` | <a href="https://github.com/teamjuli0/readme-badges/wiki/Neptune-Theme"><img src="https://github.com/teamjuli0/readme-badges/blob/main/themes/neptune/technologies/javascript.png?raw=true" height="22"></a> | `Neptune`
 <a href="https://github.com/teamjuli0/readme-badges/wiki/Clean-Light-Theme"><img src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-light/technologies/javascript.png?raw=true" height="22"></a> | `Clean Light`
 <a href="https://github.com/teamjuli0/readme-badges/wiki/Tomato-Theme"><img src="https://github.com/teamjuli0/readme-badges/blob/main/themes/tomato/technologies/javascript.png?raw=true" height="22"></a> | `Tomato`
 
