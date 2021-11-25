@@ -13,12 +13,15 @@ function App() {
         `## <a href="#readme-badges"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/${theme}/${type}/${name}.png?raw=true" style="height: 25px"></a>`
       )
       .then(() => {
-        const wikiName = theme
-          .split('-')
-          .map((name) => name[0].toUpperCase() + name.substring(1))
-          .join('-') + '-Theme'
+        const wikiName =
+          theme
+            .split('-')
+            .map((name) => name[0].toUpperCase() + name.substring(1))
+            .join('-') + '-Theme'
 
-          window.location = `https://github.com/teamjuli0/readme-badges/wiki/${wikiName}`
+        document.location.assign(
+          `https://github.com/teamjuli0/readme-badges/wiki/${wikiName}`
+        )
       })
   }
 
